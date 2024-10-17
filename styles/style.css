@@ -48,7 +48,7 @@ body{
     text-shadow: 2px 10px 10px   #00000f;
 }
 
-#button{
+#button{    
     display: block;
     padding: 1%;   
     width: 8%;    
@@ -99,6 +99,10 @@ body{
     width: 90%;
     border-radius: 5%;   
     margin: 5%;
+    transition: 0.5s;
+}
+.slbeautyimage:hover{
+    transform: scale(1.1);
 }
 
 
