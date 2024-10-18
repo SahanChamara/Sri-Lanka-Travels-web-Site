@@ -205,6 +205,7 @@ body{
     margin-right: auto;
     border-color: blue;    
     table-layout: fixed;
+    border-collapse:collapse ;
 }
 .tablemaintopics{
     text-align: center;
