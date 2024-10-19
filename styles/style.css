@@ -129,14 +129,17 @@ body{
 .cards{    
     background-color: #fb871a;
     box-shadow: 2px 2px 10px #00000f;
-    
-    /* margin-left: auto;
-    margin-right: auto; */
 
+    flex: 1;
+    max-width: 25%;
+    
+    margin-left: auto;
+    margin-right: auto;
+/* 
     margin-left: 3%;
     margin-right: 3%;
 
-    align-items: center;
+    align-items: center; */
 
     padding-top: 2%;
     padding-bottom: 2%;
@@ -158,10 +161,11 @@ body{
     width: 15%;
 }
 .divcards{
-    margin-left: auto;
-    margin-right: auto;
     display: flex;   
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .unforgettablemain{
@@ -223,14 +227,96 @@ tr,td{
     padding: 5px;
     border: 2px solid blue;
 }
-
-
 .tablemaintopics{
     text-align: center;    
     font-weight: bolder;
 }
 
+.mainfooter{
+    /* margin-top: 5%;*/
+    margin-left: 2%; 
+    width: 80%;
+}
+
+.flexdiv{
+    display: flex;
+    
+    
+}
+
+.maintopic{
+    color: white;
+    margin-left: 5%;
+    font-size: large;
+}
+.address{
+    margin-top: 3%;
+    margin-left: 5%;  
+    line-height: 150%;
+    color: white;
+    font-size: small;
+}
 
 
+.phone{
+    margin-top: 3%;
+    margin-left: 5%;
+    line-height: 150%;
+    color: white;
+}
 
+.iconsdiv{
+    margin-left: 5%;    
+}
+.iconimages{
+    margin-top: 2%;
+    width: 3%;
+    margin-right: 2%;
+}
 
+.facility{
+    color: white;    
+}
+
+.facilities1{    
+    margin-left: -100%;
+    line-height: 250%;
+}
+
+.facilities2{
+    margin-left: -50%;    
+    line-height: 250%;
+}
+
+hr{
+    margin-top: 5%;
+    margin-bottom: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid white;
+}
+
+.copyright{
+    width: 80%;
+}
+.copyrightdecs{
+    color: white;
+    font-size: small;
+    margin-left: 7%;
+}
+.copyrightimage{
+    width: 2%;
+}
+
+.privacy{
+    color: white;
+    margin-left: -6%;
+    margin-right: 2%;
+    
+}
+.terms{
+    color: white;
+    margin-left: 3%;
+    margin-right: 2%;
+     
+}
