@@ -248,13 +248,15 @@ tr,td{
     color: white;
     margin-left: 5%;
     font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .address{
     margin-top: 3%;
     margin-left: 5%;  
     line-height: 150%;
     color: white;
-    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 
@@ -263,6 +265,7 @@ tr,td{
     margin-left: 5%;
     line-height: 150%;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .iconsdiv{
@@ -275,7 +278,9 @@ tr,td{
 }
 
 .facility{
-    color: white;    
+    color: white;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 .facilities1{    
@@ -298,14 +303,15 @@ hr{
 
 .copyright{
     width: 80%;
+    margin-bottom: 5%;
 }
 .copyrightdecs{
     color: white;
-    font-size: small;
+    font-size: medium;
     margin-left: 7%;
 }
 .copyrightimage{
-    width: 2%;
+    width: 1%;
 }
 
 .privacy{
